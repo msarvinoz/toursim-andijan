@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0);
+}

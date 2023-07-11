@@ -1,0 +1,108 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card_section {
+    background: #FFFFFF;
+}
+
+.card__title {
+    text-align: center;
+    // color: var(--secondary,rgba(88, 160, 232, 0.869));
+  
+    font-size: 27.65px;
+    font-weight: 700;
+    line-height: 180%;
+    margin: 0 auto;
+}
+.card__tit{
+    text-align: center;
+    color: var(--title-color, #3D3E48);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 180%;
+    margin: 0 auto;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 307px;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    transition: all ease 0.3s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.item__inner1 {
+    display: flex;
+    width: 380px;
+    height: 307px;
+    padding-top: 21px;
+}
+
+.inner__item1 h3 {
+    font-weight: 700;
+    font-size: 23.04px;
+    line-height: 120%;
+    color: #3D3E48;
+
+}
+
+.item__inner1 p {
+    margin-top: 50px;
+    width: 329px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #3D3E48;
+}
+
+.card__subtitle{
+    color: #3D3E48;
+    h3{
+        color: #3D3E48;
+        text-align: center;
+    }
+    p{
+        color: #3D3E48;
+        text-align: center;
+    }
+}
+
+
+.card__item a:hover{
+    background-color:rgba(88, 160, 232, 0.869);
+    .card__subtitle h3{
+        text-align: center;
+        color: white;
+    }
+    .card__subtitle p{
+        text-align: center;
+        color: white;
+    }
+
+}
+

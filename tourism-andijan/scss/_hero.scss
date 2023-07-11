@@ -1,0 +1,28 @@
+.hero {
+    margin: 0 auto;
+    padding-top: 200px;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.search__wrap{
+    background:rgba(88, 160, 232, 0.869);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 230px;
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding-top: 5px;
+    }
+    ::placeholder {
+        color: white;
+        opacity: 1;
+        font-size: 20px; /* Firefox */
+    }
+}

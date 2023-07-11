@@ -1,0 +1,84 @@
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    background-color:rgba(88, 160, 232, 0.869);
+
+    .about__body{
+        margin-top: 100px;
+        display: flex;
+        
+        .about__left{
+            display: flex;
+            flex-wrap: wrap;
+            width: 1000px;
+            height: 448px;
+            .about__image1{
+                border-top-right-radius: 40%;
+                border-bottom-left-radius: 40%;
+            }
+            .about__image2{
+                margin-top: 207px;
+                margin-left: 5px;
+                border-top-right-radius: 40%;
+                border-bottom-left-radius: 40%;
+            }
+            .about__image3{
+                margin-left: -290px;
+                border-bottom-right-radius: 40%;
+                border-top-left-radius: 40%;
+                
+            }
+            .about__image4{
+                margin-top: -220px;
+                border-bottom-right-radius: 40%;
+                border-top-left-radius: 40%;
+            }
+        }
+        .about__right{
+            margin-left: 30px;
+            .about__top--title{
+                color:white;
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+            .about__title{
+                color: #3D3E48;
+                font-size: 28px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            .about__text{
+                color: #3D3E48;
+                font-size: 16px;
+                font-weight: 400;
+                width: 575px;
+            }
+            .about__list{
+                display: flex;
+                margin-top: 40px;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                
+                .about__listitem{
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 16px;
+                    width: 200px;
+                    padding-bottom: 20px;
+                    .list__num{
+                        display: inline;
+                        color:white;
+                        font-size: 28px;
+                        width: 200px;
+                    }
+                    p{
+                        font-style: 16px;
+                        color: #3D3E48;
+                    }
+                }
+            }
+        }
+    }
+}

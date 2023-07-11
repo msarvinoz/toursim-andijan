@@ -1,0 +1,122 @@
+#discover__container {
+    width: 1200px;
+    margin: 0 auto;
+    // padding: 0 20px;
+    margin-bottom: 100px;
+
+    .top {
+        width: 130px;
+        height: 29px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 180%;
+        color: rgba(88, 160, 232, 0.869);
+        margin: 0 auto;
+    }
+
+    .discover {
+        // width: 262px;
+        text-align: center;
+        height: 33px;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27.65px;
+        line-height: 120%;
+        color: #3D3E48;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .discover__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .discover__items {
+        width: 380px;
+        height: 410px;
+        margin-bottom: 30px;
+        padding: 10px;
+        background: #FFFFFF;
+        box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    .discover_img {
+        width: 360px;
+        height: 227px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .dis {
+        display: flex;
+
+    }
+
+    .discover__title {
+        width: 250px;
+        height: 35px;
+        margin-left: 5px;
+        margin-bottom: 22px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.2px;
+        line-height: 180%;
+        color: #3D3E48;
+    }
+
+    .discover__text {
+        width: 75px;
+        height: 29px;
+        margin-left: 5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color:rgba(88, 160, 232, 0.869);
+
+    }
+
+    .dis__img {
+        width: 18px;
+        height: 18px;
+        margin-left: 150px;
+
+    }
+
+    .dis__text {
+        width: 103px;
+        height: 25px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 180%;
+        color: #3D3E48;
+    }
+
+    .dis__btn{
+        margin-top: 30px;
+        width: 160px;
+        height: 35px;
+        border-radius: 15%;
+        background-color: rgba(88, 160, 232, 0.869);
+        border: none;
+        color: white;
+        cursor: pointer;
+        a{
+            font-size: 16px;
+        }
+    }
+
+}

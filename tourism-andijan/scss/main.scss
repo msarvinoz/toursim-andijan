@@ -1,0 +1,24 @@
+@import './generals';
+@import './header';
+@import './hero';
+@import './andijan';
+@import './about';
+@import './card-info';
+@import './footer';
+@import './last-section';
+@import './card';
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&family=Mulish:wght@300;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:rgba(88, 160, 232, 0.869);
+    border-radius: 10px;
+}
